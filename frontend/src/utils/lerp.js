@@ -1,0 +1,1 @@
+export const lerp = (start,end,a)=> start*(1-a)+end*a
