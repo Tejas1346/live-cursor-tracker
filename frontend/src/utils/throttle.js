@@ -1,4 +1,4 @@
-function throttle(cb, delay = 5000) {
+function throttle(cb, delay = 50) {
     let shouldWait = false;
 
     let waitingArgs;
